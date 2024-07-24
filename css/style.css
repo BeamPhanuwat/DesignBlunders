@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #161729;
+    font-family: 'Prompt', sans-serif;
+}/*กำหนดให้ไม่มีระยะห่าง พื้นหลังเป็นสีกรม และใช้fontที่กำหนด*/
+
+body{
+    margin: 2.2em;
+}/*กำหนดให้ทั้งเว็บไซต์มีระยะห่างภายนอกเท่ากัน*/
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}/*กำหนดความยาว รูปแบบการจัดวางของheader*/
+
+header .logo{
+    color: #0EF0AE;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 2em;
+    line-height: 0.9em;
+}/*กำหนดลักษณะโลโก้*/
+
+header .logo span{
+    color: white;
+    font-weight: 500;
+    font-size: 0.5em;
+}/*กำหนดให้สโลแกนของโลโก้ต่างจากตัวโลโก้หลัก*/
+
+header ul{
+    display: flex;
+    align-items: center;
+}
+
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}/*กำหนดลักษณะlist item*/
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+}/*กำหนดลักษณะlinkภายในlist item*/
+
+header ul li a:hover, header ul li a:active, header ul li a.active{
+    color: #0EF0AE;
+}/*กำหนดลักษณะlinkภายในlist item เมื่อเมาส์อยู่เหนือหรือเมื่อคลิก*/
+
+#banner{
+    width: 100%;
+    margin: 2em 0em 3em;
+    min-height: 300px;
+}/*กำหนดลักษณะbanner*/
+
+.text_banner{
+    float: left;
+    width: 50%;
+}/*กำหนดลักษณะของwrapperข้อมูลให้แสดงครึ่งหน้าจอ*/
+
+.text_banner p{
+    margin-bottom: 2.5em;
+}/*กำหนดลักษณะparagraphภายใน*/
+
+.text_banner h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0.2em;
+}/*กำหนดลักษณะของหัวข้อ*/
+
+.text_banner h1 span{
+    color: #0EF0AE;
+}/*กำหนดส่วนที่แตกต่างของหัวข้อ*/
+
+.primary_btn{
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.7em 1.6em;
+    color: white;
+    background: #0EF0AE;
+    border-radius: 2em;
+    margin-right: 0.8em;
+}/*กำหนดปุ่มหลัก*/
+
+.primary_btn:hover{
+    color: #161729;
+    background: white;
+}/*กำหนดปุ่มหลักเมื่อเมาส์อยู่เหนือ*/
+
+.secondary_btn{
+    text-decoration: none;
+    border: solid 2px white;
+    font-weight: 500;
+    padding: 0.6em 1.5em;
+    color: white;
+    border-radius: 2em;
+}/*กำหนดปุ่มรอง*/
+
+.secondary_btn:hover{
+    color: #161729;
+    background: white;
+}/*กำหนดปุ่มรองเมื่อเมาส์อยู่เหนือ*/
+
+p{
+    color: white;
+}/*กำหนดสีของparagraph*/
+
+.img_banner{
+    float: right;
+    width: 50%;
+} /*กำหนดรูปภาพบนแบนเนอร์*/
+
+#section1{
+    margin-bottom: 3em;
+}/*กำหนดระยะห่างด้านล่างของid section1*/
+
+#section1 h2{
+    font-size: 2.2em;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0.2em;
+}/*กำหนดลักษณะหัวข้อภายในid section1*/
+
+#section1 h2 span{
+    color: #0EF0AE;
+}/*กำหนดลักษณะที่แตกต่างให้บางส่วนภายหัวข้อ*/
+
+.text{
+    margin-bottom: 3em;
+}/*กำหนดระยะห่างจากด้านล่างของ section class"text"*/
+
+.text h3{
+    border-left: solid 5px #0EF0AE;
+    font-size: 2em;;
+    padding-left: 0.5em;
+    color: white;
+    margin-bottom: 0.2em;
+}/*กำหนดหัวข้อภายในtext*/
+
+.text ul{
+    padding-left: 2em;
+    list-style-position: inside;
+    list-style-type: square;
+}/*กำหนดรูปแบบของlist เป็นจุดสี่เหลี่ยม ตำแหน่งอยู่ด้านในกับตัวlist item*/
+
+.text ul li{
+    color: white;
+}/*กำหนดสีของlist item ภายในlist*/
+
+footer{
+    margin-top: 1em;
+}/*กำหนดระยะห่างด้านบน*/
+
+footer .logo{
+    color: #0EF0AE;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 3em;
+}/*กำหนดลักษณะlogo ของ footer*/
