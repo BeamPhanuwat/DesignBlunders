@@ -118,6 +118,7 @@ p{
 } /*กำหนดรูปภาพบนแบนเนอร์*/
 
 #section1{
+    clear: both;
     margin-bottom: 3em;
 }/*กำหนดระยะห่างด้านล่างของid section1*/
 
